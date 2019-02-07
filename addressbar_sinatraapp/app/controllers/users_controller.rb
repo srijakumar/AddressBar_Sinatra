@@ -4,7 +4,7 @@ class UserController < ApplicationController
     erb :'/users/signup'
   end
 
-  post '/signup' do
+
 
     post '/signup'do
         if params[:password] == params[:password_confirm]
